@@ -1,5 +1,7 @@
 # Pytest full-featured example
 
+Install and run:
+
 ```
 pip install pytest pytest-instafail pytest-cov pytest-html
 
@@ -7,6 +9,7 @@ pytest -s --cov-report html:reports/coverage --cov=mymath --instafail --html=rep
 ```
 
 Explanation:
+
 `-s` - output print() results
 
 `--cov-report html:reports/coverage --cov=mymath` - analyze coverage of `mymath` module and outpur html report to `reports/coverage` dir
